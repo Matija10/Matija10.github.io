@@ -1,0 +1,265 @@
+.heder {
+  background: #ffc2b3;
+  height: 200px;
+  width: 1000px;
+  top: 0;
+  margin-top: 0;
+  position: fixed;
+  color: white;
+  text-align: center;
+  font-family: Arial, Times, sans-serif;
+  z-index: 1;
+}
+.navigation {
+    border: 0px solid black;
+    height: 40px;
+    background-color: red;
+    width: 1000px;
+    color: white;
+    position: fixed;
+    margin-top: 200px;
+    text-align: center;
+  font-family: Arial, Times, sans-serif;
+  z-index: 1;
+}
+.content {
+    height: auto;
+    margin-bottom: 40px;
+    border: 0px solid black;
+    width: 800px;
+    display: inline-block;
+    background-color: #ffcccc;
+    margin-right: 0;
+    float:left;
+    margin-top: 240px;
+    text-align: center;
+  font-family: Arial, Times, sans-serif;
+}
+.sidebar {
+    margin-bottom: 40px;
+    height: 1214px;
+    border: 0px solid black;
+    width: 200px;
+    display: inline-block;
+    background-color: #bfbfbf;
+    float: right;
+    margin-top: 240px;
+    text-align: center;
+  font-family: Arial, Times, sans-serif;
+}
+.footer {
+   position: fixed;
+   bottom: 0;
+   width: 1000px;
+   height: 40px;
+   background-color: red;
+   color: white;
+   text-align: center;
+  font-family: Arial, Times, sans-serif;
+}
+#slikaheder {
+  width: 1000px;
+  height: 200px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  position: auto;
+}
+.tekst {
+  position: absolute;
+  font-family: Arial, sans-serif;
+  width: bold;
+  top: 6%;
+  left: 35%;
+  font-size: 3em;
+}
+.navigacija {
+    list-style-type: none;
+    margin: 0;    
+    padding: 0;
+    position: fixed;
+    font-family: Arial, Times, sans-serif;
+}
+.nav {
+  display: inline-block;
+  float: left;
+  margin-left: 0px;
+}
+.nav a {
+   display: inline-block;
+    background-color: red;
+    height: 24px;
+    margin-left: 0px;
+    text-align: center;
+    padding: 8px;
+    font-family: Arial, Times, sans-serif;
+    color: white;
+    font-size: 1.3em;
+    font-style: normal;
+    text-decoration: none;
+    margin-right: 10px;
+  }
+.nav a:hover {
+  background-color: white;
+  color: red;
+  text-decoration: none;
+}
+.navigation li ul {
+  display: none;
+  position: absolute;
+  padding: 0;
+}
+.navigation li:hover ul {
+  display: block;
+}
+.navigation li li {
+  display: block;
+  width: 100px;
+}
+.dropdownContent ul li {
+  background-color: red;
+  min-width: 180px;
+  text-align: center;
+  width: 180px;
+  display: block;
+}
+.dropdownContent a:hover {
+  background-color: white;
+}
+.dropdownContent a {
+  text-decoration: none;
+  display: block;
+  width: 165px;
+}
+#rupa {
+  float: left;
+  margin-left: 5px;
+}
+#tekst0{
+  text-align: left;
+  margin-left: 5px;
+}
+#tekst1 {
+  text-align: left;
+  margin-left: 210px;
+}
+#tekst2 {
+ text-align: left;
+ margin-left: 5px;
+}
+#sd {
+  float:right;
+  margin-right: 10px;
+}
+#tekst3 {
+  text-align: left;
+ margin-left: 5px;
+}
+#tekst4 {
+  text-align: left;
+  margin-left: 5px;
+}
+#rupa:hover {
+  opacity: 0.5;
+  filter: alpha(opacity=50);
+}
+#delije:hover {
+  opacity: 0.5;
+  filter: alpha(opacity=50);
+  }
+#sd:hover {
+  opacity: 0.5;
+  filter: alpha(opacity=50);
+}
+#vesti {
+  color: red;
+  font-weight: bold;
+}
+#vesti:hover {
+  background-color: red;
+  color:white;
+}
+#fotogalerija {
+  color: red;
+  font-weight: bold;
+}
+#fotogalerija:hover {
+  color: red;
+  background-color: white
+}
+#youtube {
+  color: red;
+  font-weight: bold;
+}
+#youtube:hover {
+  color: red;
+  background-color: white
+}
+#linkovi {
+  font-size: 1.5em;
+}
+#facebook:hover {
+  opacity: 0.5;
+  filter: alpha(opacity=50);
+}
+#instagram:hover {
+  opacity: 0.5;
+  filter: alpha(opacity=50);
+}
+#twitter:hover {
+  opacity: 0.5;
+  filter: alpha(opacity=50);
+}
+#stadion1 {
+  font-size: 0.8em;
+  text-align: left;
+  margin-left: 5px;
+  margin-top: 0px;
+  color: white;
+  float: left;
+  padding: 5px;
+}
+#mapa {
+  margin-left: 5px;
+  margin-top: 5px;
+  float: left;
+}
+#mapa:hover {
+  opacity: 0.5;
+  filter: alpha(opacity=50);
+}
+#hala {
+  font-size: 0.8em;
+  text-align: left;
+  margin-left: 140px;
+  margin-top: 5px;
+  color: white;
+  float: left;
+}
+#mapa1 {
+  margin-left: 3px;
+  margin-top: 5px;
+  float: left;
+}
+#mapa1:hover {
+  opacity: 0.5;
+  filter: alpha(opacity=50);
+}
+#ulaznice {
+  float: left;
+  color: white;
+  margin-left: 70px;
+  margin-top: 0px;
+  padding: 14px;
+}
+#eventim {
+  margin-top: 2px;
+  margin-right: 3px;
+}
+#ulaznice:hover {
+  background-color: white;
+  color: red;
+}
+body {
+    width: 1000px;
+    margin: 0 auto;
+}
